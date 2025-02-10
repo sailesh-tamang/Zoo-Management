@@ -1,0 +1,16 @@
+.animated-background {
+  background-image: url('https://i.pinimg.com/736x/d9/04/c8/d904c852043c0679f63374c776126f8a.jpg');
+  animation: backgroundAnimation 15s infinite alternate;
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background-position: center;
+  }
+  50% {
+    background-position: top;
+  }
+  100% {
+    background-position: bottom;
+  }
+}

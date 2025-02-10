@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from "./Navbar";
+import './Home.css'; // Import the CSS file
 
 function Home() {
   const navigate = useNavigate();
@@ -14,8 +15,7 @@ function Home() {
       <Navbar />
       {/* Hero Section */}
       <div
-        className="h-screen bg-cover bg-center flex flex-col items-center justify-center text-center"
-        style={{ backgroundImage: "url('https://source.unsplash.com/1600x900/?technology,modern')" }}
+        className="h-screen bg-cover bg-center flex flex-col items-center justify-center text-center animated-background"
       >
         <h1 className="text-5xl font-bold text-black drop-shadow-lg">
           Welcome to Our Website
