@@ -10,6 +10,7 @@ import VisitorTicketingPage from "./page/VisitorTicketingPage";
 import PettingAreaPage from "./page/PettingAreaPage";
 import UserManagementPage from "./page/UserManagementPage";
 import RegisterPage from "./components/Registration"
+import Navbar from "./components/Navbar"
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
+    <Navbar/>
       <Routes>
           <Route path="/home" element={<Home/>}/>
           <Route path="/dashboard" element={<Dashboard/>}/>
@@ -29,8 +31,6 @@ function App() {
           <Route path="/visitor-ticketing" element={<VisitorTicketingPage/>}/>
           <Route path="/petting-area" element={<PettingAreaPage/>}/>
           <Route path="/user-management" element={<UserManagementPage/>}/>
-
-          
       </Routes>
     </BrowserRouter>
     </>

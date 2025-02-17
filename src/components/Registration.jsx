@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate, Link } from "react-router-dom";
 import instanced from "../service/api"; 
-import Navbar from './Navbar';  // Importing Navbar
 
 const RegisterPage = () => {
   const {
@@ -41,8 +40,6 @@ const RegisterPage = () => {
 
   return (
     <div className="w-full bg-gray-100">
-      {/* Navbar */}
-      <Navbar />  {/* Add Navbar here */}
 
       {/* Header Section */}
       <header className="relative w-full h-[60vh] flex items-center justify-center bg-brown">

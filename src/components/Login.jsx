@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
-import Navbar from './Navbar'; 
 import instanced from "../service/api"; // Using the axios instance
 
 const LoginPage = () => {
@@ -45,8 +44,7 @@ const LoginPage = () => {
 
   return (
     <div className="w-full bg-gray-100">
-      {/* Navbar Component */}
-      <Navbar />
+    
 
       {/* Header Section */}
       <header className="relative w-full h-[50vh] flex items-center justify-center bg-brown">

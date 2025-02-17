@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from './Navbar'; // Assuming you have a Navbar component
 
 const Contact = () => {
   const contacts = [
@@ -37,7 +36,7 @@ const Contact = () => {
 
   return (
     <div>
-      <Navbar /> {/* Include the Navbar component */}
+      
       <div className="max-w-4xl mx-auto p-8 text-gray-700">
         <h2 className="text-3xl font-bold text-center mb-6">Contact Us</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

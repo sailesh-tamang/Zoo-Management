@@ -1,6 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import Navbar from "./Navbar";
 
 function Home() {
   const navigate = useNavigate();
@@ -11,7 +10,7 @@ function Home() {
 
   return (
     <div>
-      <Navbar />
+      
       {/* Hero Section */}
       <div
         className="h-screen bg-cover bg-center flex flex-col items-center justify-center text-center"

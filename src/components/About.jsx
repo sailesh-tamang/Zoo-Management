@@ -1,6 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import Navbar from "./Navbar";
 
 function About() {
   const navigate = useNavigate();
@@ -11,7 +10,7 @@ function About() {
 
   return (
     <>
-      <Navbar />
+      
       <div
         className="bg-cover bg-center flex items-center justify-center"
         style={{ backgroundImage: "url('https://source.unsplash.com/1600x900/?zoo')" }}
