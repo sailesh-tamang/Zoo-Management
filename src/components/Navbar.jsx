@@ -23,7 +23,7 @@ function Navbar() {
             <Link to="/login" className="hover:text-gray-300">Login</Link>
           </li>
           <li className="mx-[25px] cursor-pointer flex items-center justify-center">
-            <Link to="/signup" className="hover:text-gray-300">Signup</Link>
+            <Link to="/register" className="hover:text-gray-300">Signup</Link>
           </li>
         </ul>
       </div>
